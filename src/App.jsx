@@ -60,7 +60,7 @@ function App() {
       {show && <Card usuario={usuario} />}
       {error && (
         <h5 style={{ color: "red" }}>
-          Por favor verifique los datos antes de enviar
+          Por favor chequea que la información sea correcta
         </h5>
       )}
     </>
