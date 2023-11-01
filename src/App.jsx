@@ -21,7 +21,7 @@ function App() {
     }
   };
   return (
-    <>
+    <div className="form">
       <h1>Carga de usuarios</h1>
       <form
         onSubmit={handleSubmit}
@@ -63,7 +63,7 @@ function App() {
           Por favor chequea que la información sea correcta
         </h5>
       )}
-    </>
+    </div>
   );
 }
 
